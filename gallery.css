@@ -1,0 +1,58 @@
+*{
+    padding: 0px; margin: 0px;box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bolder;
+}
+body{
+    background-color: rgb(168, 243, 184);
+}
+nav
+{
+    width: 100%; height: 15vh;
+    background-color: rgba(0, 0,0,0.2);
+    color: white;
+    display: flex; justify-content: space-between; align-items: center; text-transform: uppercase;
+    margin-bottom: 20px;
+}
+nav .logo{
+    width: 25%;
+    margin-left: 25px;
+    /* background-color: yellow; */
+}
+nav .menu
+{
+    width: 40%;
+    /* background-color:red; */
+    display: flex; justify-content: space-around;
+}
+nav .menu a{
+    text-decoration: none;
+    width: 25%;
+    color: white;
+    font-weight: bolder;
+}
+#ga{
+    color: #eeff07;
+}
+
+.gallery
+{
+    columns: 4;
+    column-gap: 16px;
+}
+img{
+    width: 100%;
+    border-radius: 8px;
+}
+.image
+{
+    display: inline-block;
+    margin-bottom: 16px;
+    position: relative;
+}
+@media only screen and (max-width:600px) {
+
+    .gallery{
+        columns :2;
+    }
+}
